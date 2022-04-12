@@ -1,18 +1,11 @@
 # Final Project for Intro to Data Science
 
-## Term YYYY
+## Spring 2022
 
-Team members: 
 
-- Student 1: [Rei Sanchez-Arias](mailto:rsanchezarias@floridapoly.edu)
-
-- Student 2: [Student name](mailto:student2@floridapoly.edu)
-
-- Student 3: [Student name](mailto:student3@floridapoly.edu)
-
+- Student 1: [Cody Brewer](mailto:cbrewer7077@floridapoly.edu)
 
 **Summary**
 
-Our project investigates the main characteristics of popular movies in recent years.
-We will be using the data available at: 
+MY project investigates the most popular movies within the last ten years and tries to compare each of them to see who made the movie, how much money was made, and see if there is any similarities with each other 
 <https://github.com/reisanar/datasets/blob/master/IMDB_movies.csv> 

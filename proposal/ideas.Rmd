@@ -7,12 +7,16 @@ output: html_notebook
 
 ## Section 1. Introduction
 
-Include a brief **introduction or motivation** here
+To find out what the most popular song is by using different modes to find the answer. There are many parts of music that is opinion based and since that is the case lets find the one with the 'best' opinion. This may be separated into different years depending on how immense the data is.
 
 ## Section 2. Data Analysis Plan
 
 List any **initial questions** you plan to explore in this project. 
-
+What is the most popular genre?
+What is the most common bpm(beats per minute) range?
+Is there a trend in popular music? If so, What?
 ## Section 3. Data
 
 Include a brief **description of your dataset** (source, available attributes, format, etc.)
+I am going to be using the top50MusicFrom2010-2019.csv in order to find out my questions. It has a multitude of factors such as energy, dancibility, bpm, and etc.
+It originates from Kaggle:Top Spotify songs from 2010-2019 - BY YEAR. It has a lot of opinionated categories but I believe that is because they used a poll to come up with the categories.

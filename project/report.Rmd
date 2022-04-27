@@ -1,13 +1,33 @@
 ---
-title: "Final Report for Intro to Data Science"
+title: "Top Music 2010-2019"
 output: html_notebook
 ---
 
-This is where the final project report write-up goes. 
 
+```{r}
+library(tidyverse)
+top_music <- read_csv("https://raw.githubusercontent.com/reisanar/datasets/master/all_billboard_summer_hits.csv")
 
-Before you submit, make sure everything runs as expected.
+```
+Filtering the music to the most recent year
+```{r}
+filter(top_music, year==2017)
 
-You can add sections as you see fit. Make sure you have a section called "Introduction" at the beginning and a section called "Conclusion" at the end. The rest is up to you!
+```
+Adding a new variable that shows the time from duration miliseconds and turning it into minutes.
+```{r}
+top_music<-mutate(top_music,duration_min = duration_ms/60000)
 
-_Make use of your knowledge of Markdown to appropriately typeset this report!_
+```
+
+What is the average minutes with all the songs combined?
+```{r}
+mean(top_music$duration_ms/60000)
+
+```
+Finding Maroon 5 song with a higher liveness than .1
+```{r}
+
+filter(top_music, artist_name=='Maroon 5', liveness >= .1)
+
+```

@@ -18,5 +18,5 @@ Is there a trend in popular music? If so, What?
 ## Section 3. Data
 
 Include a brief **description of your dataset** (source, available attributes, format, etc.)
-I am going to be using the top50MusicFrom2010-2019.csv in order to find out my questions. It has a multitude of factors such as energy, dancibility, bpm, and etc.
-It originates from Kaggle:Top Spotify songs from 2010-2019 - BY YEAR. It has a lot of opinionated categories but I believe that is because they used a poll to come up with the categories.
+I am going to be using the all_billboard_summer_hits.csv in order to find out my questions. It has a multitude of factors that should help me in finding the most popular music.c
+

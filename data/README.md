@@ -1,14 +1,7 @@
-# Data Description: IMDB popular movies data
+# Data Description: Top Music
 
-(this is an example only. Edit this file as you see fit. It is recommended that you also include a copy of the original data used for this project in this folder - typically in `.csv` format)
+This is a dataset of top 50 Spotify music from 2010 to 2019. Originally published at Kaggle:Top Spotify songs from 2010-2019 - BY YEAR which is scraped from Spotify: Organize your music
 
-We use the `IMDB_movies.csv` dataset available at 
-<https://github.com/reisanar/datasets/blob/master/IMDB_movies.csv>
+After cleaning the data, it contains 14 columns and 603 rows of data.
 
-This dataset includes information of popular movies on IMDB in the last 10 years. 
-
-The data fields included are: Title, Genre, Description, Director, Actors, Year, Runtime, Rating, Votes, Revenue, Metascore (score of the movie on the metacritic website)
-
-Below we include some basic statistics for this datasets, including dimensions and range of years ...
-
-(add basic summary if needed. Notice that the information above can be reused for one of the sections for the final project report)
+The type of attributes: 'title' is categorical. 'artist' is categorical. 'genre of the track' is categorical. 'year' is quantitative. 'Beats per minute' is quantitative. 'energy' is quantitative. 'Danceability' is quantitative. 'Loudness/dB' is quantitative. 'Liveness' is quantitative. 'Valence' is quantitative. 'Length' is quantitative. 'Acousticness' is quantitative. 'Speechiness' is quantitative. 'Popularity' is quantitative.
